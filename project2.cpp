@@ -26,7 +26,7 @@ struct Task{
     response = 0;
     remaining = length;
   }
-  printTask(){
+  void printTask(){
     cout << "Process ID: " << id << endl;
     cout << "   Arrival Time: " << arrival << endl;
     cout << "   Process Length: " << length << endl;
